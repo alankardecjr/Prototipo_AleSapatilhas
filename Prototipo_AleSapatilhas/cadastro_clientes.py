@@ -6,9 +6,8 @@ import database
 class JanelaCadastroClientes(tk.Toplevel):
     def __init__(self, master, dados_cliente=None, callback_venda=None):
         super().__init__(master)
-        self.title("Sistema Alê Sapatilhas")
-        # Altura reduzida para 700px para garantir visibilidade
-        self.geometry("450x760") 
+        self.title("Alê Sapatilhas - Cadastro de Clientes")
+        self.geometry("450x750") 
         self.resizable(False, False)
         
         # Paleta de Cores

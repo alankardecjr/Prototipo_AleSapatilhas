@@ -5,8 +5,8 @@ import database
 class JanelaCadastroProdutos(tk.Toplevel):
     def __init__(self, master, dados_produto=None):
         super().__init__(master)
-        self.title("Sistema Alê Sapatilhas")
-        self.geometry("450x680") 
+        self.title("Alê Sapatilhas - Painel de Produtos")
+        self.geometry("450x650") 
         self.resizable(False, False)
         
         # Paleta de Cores (Padrão Alê Sapatilhas)
